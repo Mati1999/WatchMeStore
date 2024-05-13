@@ -1,0 +1,1 @@
+// Aquí coloco lógica que me ayuda a procesar información y devolver siempre el mismo resultado. Como formatear un tipo de dato.

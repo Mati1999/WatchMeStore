@@ -1,0 +1,10 @@
+@mixin medidas($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin flex($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

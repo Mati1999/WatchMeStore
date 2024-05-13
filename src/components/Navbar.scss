@@ -1,0 +1,23 @@
+@import '../GlobalStyles.scss';
+
+.navbar {
+  @include medidas(100%, 6rem);
+  @include flex(center, center);
+
+  ul {
+    @include medidas(80%, 100%);
+    @include flex(space-evenly, center);
+
+    li {
+      @include medidas(100%, 100%);
+      list-style-type: none;
+      text-align: center;
+      align-content: center;
+    }
+
+    img {
+      @include medidas(50%, 50%);
+
+    }
+  }
+}
